@@ -104,7 +104,7 @@ int createIntFromString(const char* float_string)
         } else if (float_string[i] == '1') {
             result |= 1 << (size_of_float - 1 - i);      // Set bit
         } else {
-            printf("Input sreing should only contain 1 or 0.");
+            printf("Input string should only contain 1 or 0.");
             exit(-1);
         }
     }
